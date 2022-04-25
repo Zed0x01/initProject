@@ -1,19 +1,19 @@
 doctype html
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="description", content="Sandbox V1")
-        include ../styles/styles
-        title Sandbox
-    body
-        include header
-        .indexSec(class="h-screen")
-            .container(class="mx-auto text-center")
-                .home(class="pt-[180px] text-center mx-auto max-w-[600px]")
-                    h1(class="font-semibold text-5xl text-[#343f52]  pb-[30px]") Staying on top of your bills never been this easy
-                    p(class="text-xl") Easily achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.
-                .btns(class="mt-5")
-                    button(class="blue-btn") Get Started
-                    button(class="green-btn") Free Trial
-        include footer
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="description", content="Sandbox V1")
+    include ../styles/styles
+    title Sandbox
+  body
+    include header
+    .indexSec.h-screen
+      .container.mx-auto.text-center
+        .home.text-center.mx-auto(class="pt-[180px] max-w-[600px]")
+          h1.font-semibold.text-5xl(class="text-[#343f52] pb-[30px]") Staying on top of your bills never been this easy
+          p.text-xl Easily achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.
+        .btns.mt-5
+          button.blue-btn Get Started
+          button.green-btn Free Trial
+    include footer

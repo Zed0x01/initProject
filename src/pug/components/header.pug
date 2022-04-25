@@ -1,16 +1,18 @@
-.header(class="header  w-[100%] fixed")
-    .container
-        .header(class="flex flex-row bg-white h-[80px]  items-center  justify-between shadow-lg rounded-xl")
-            .logo
-                img(src='./imgs/logo.png',class="w-5/6 px-4")
-            .menu(class="flex flex-row")
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Demos
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Pages
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Projects
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Blog
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Blocks
-                h1(class="text-[18px] px-[10px] font-semibold cursor-pointer") Doumentation
-            .sign(class="px-3")
-                .buttons
-                    button(class="") Sign in
-                    button(class="blue-btn ml-2 shadow-lg") Sign up
+.header.header.fixed(class="w-[100%]")
+  .container
+    .header.flex.flex-row.bg-white.items-center.justify-between.shadow-lg.rounded-xl(
+      class="h-[80px]"
+    )
+      .logo
+        img.px-4(src="./imgs/logo.png", class="w-5/6")
+      .menu.flex.flex-row
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Demos
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Pages
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Projects
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Blog
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Blocks
+        h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Doumentation
+      .sign.px-3
+        .buttons
+          button(class="") Sign in
+          button.blue-btn.ml-2.shadow-lg Sign up

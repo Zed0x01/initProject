@@ -1,16 +1,16 @@
-@import './colors';
+@import "./colors";
 
-.footer-form{
-    width: 150px;
-    height: 20px;
-    position: relative;
-    input{
-        width: 180px;
-    }
-    button:hover{
-        transform: none;
-    }
+.footer-form {
+  width: 150px;
+  height: 20px;
+  position: relative;
+  input {
+    width: 180px;
+  }
+  button:hover {
+    transform: none;
+  }
 }
-.footer-main{
-    background-color: #{$footerCol};
+.footer-main {
+  background-color: #{$footerCol};
 }

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "format": "prettier -w -l \"src/**/*.{pug,scss,js}\""
   },
   "keywords": [],
   "author": "",
@@ -13,12 +14,14 @@
     "gulp-pug": "^5.0.0"
   },
   "dependencies": {
+    "@prettier/plugin-pug": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-notify": "^4.0.0",
     "gulp-sass": "^5.1.0",
+    "prettier": "^2.6.2",
     "sass": "^1.50.1"
   }
 }

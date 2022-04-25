@@ -1,34 +1,34 @@
-div(class="footer-main")
-    .container(class="flex flex-row py-[90px] justify-around")
-        .sandbox(class="mx-5 ")
-            .img
-                img(src="./imgs/logo-light@2x.png", alt="",class="w-3/5")
-            p(class="pt-3")= '© 2021 Sandbox.'
-            p All rights reserved.
-            ul(class="flex flex-row pt-4")
-                li: a T
-                li: a F
-                li: a T
-                li: a I
-                li: a Y
-        //- End SandBox
-        .getIn(class="mx-5 ")
-            h1(class="text-white text-2xl pb-2") Get in Touch
-            p(class='pb-2') Moonshine St. 14/05 Light City,<br> London, United Kingdom
-            p info@email.com <br> 00 (123) 456 78 90
-        //- End getIn
-        .learnMore(class="mx-5 ")
-            h1(class="text-white text-2xl pb-2") Learn More
-            p About Us
-            p Our Story
-            p Projects
-            p Terms of Use
-            p Privacy Policy
-        //- End leanMore
-        .newsLetter(class="mx-5 ")
-            h1(class='text-white text-2xl pb-2') Our Newsletter
-            p(class='pb-2') Subscribe to our newsletter to<br> get our news deals delivered to you.
-            form(class="footer-form")
-                input(type="text" placeholder="Email Address")
-                button(type="submit") Join
-        //- End newsLetter
+.footer-main
+  .container.flex.flex-row.justify-around(class="py-[90px]")
+    .sandbox.mx-5
+      .img
+        img(src="./imgs/logo-light@2x.png", alt="", class="w-3/5")
+      p.pt-3= "© 2021 Sandbox."
+      p All rights reserved.
+      ul.flex.flex-row.pt-4
+        li: a T
+        li: a F
+        li: a T
+        li: a I
+        li: a Y
+    //- End SandBox
+    .getIn.mx-5
+      h1.text-white.text-2xl.pb-2 Get in Touch
+      p.pb-2 Moonshine St. 14/05 Light City,<br> London, United Kingdom
+      p info@email.com <br> 00 (123) 456 78 90
+    //- End getIn
+    .learnMore.mx-5
+      h1.text-white.text-2xl.pb-2 Learn More
+      p About Us
+      p Our Story
+      p Projects
+      p Terms of Use
+      p Privacy Policy
+    //- End leanMore
+    .newsLetter.mx-5
+      h1.text-white.text-2xl.pb-2 Our Newsletter
+      p.pb-2 Subscribe to our newsletter to<br> get our news deals delivered to you.
+      form.footer-form
+        input(type="text", placeholder="Email Address")
+        button(type="submit") Join
+    //- End newsLetter
