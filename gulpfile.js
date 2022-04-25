@@ -6,18 +6,11 @@ var sass = require('gulp-sass')(require('sass'));
 var cleanCss =require('gulp-clean-css');
 const {parallel} = require('gulp');
 
-/* gulp.task('html',()=>{
-    
-})
- */
 function html(){
     return gulp.src('./src/pug/components/index.pug')
                 .pipe(pug({pretty:true}))
                 .pipe(gulp.dest('./dist/'))
 }
-/* gulp.task('css',()=>{
-    
-}) */
 
 function css(){
     return gulp.src('./src/sass/main.scss')
