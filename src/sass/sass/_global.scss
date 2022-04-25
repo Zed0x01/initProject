@@ -1,0 +1,28 @@
+@import './colors';
+.green-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #{$btnGreen};
+    color: white;
+}
+.blue-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #{$btnBlue};
+    color: white;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    color: #{$parCol};
+}
+button:hover{
+    transition: .4s ease-in-out;
+    transform: translateY(-5px);
+}
