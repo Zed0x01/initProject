@@ -1,11 +1,11 @@
-.header.header.fixed(class="w-[100%]")
-  .container
-    .header.flex.flex-row.bg-white.items-center.justify-between.shadow-lg.rounded-xl(
+#headerContainer.header.header.w-full.z-50
+  .container.relative
+    #headerSec.flex.flex-row.items-center.justify-between.shadow-lg.rounded-xl(
       class="h-[80px]"
     )
       .logo
         img.px-4(src="./imgs/logo.png", class="w-5/6")
-      .menu.flex.flex-row
+      .menu.hidden(class="lg:flex lg:flex-row")
         h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Demos
         h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Pages
         h1.font-semibold.cursor-pointer(class="text-[18px] px-[10px]") Projects

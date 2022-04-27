@@ -1,6 +1,8 @@
 .footer-main
-  .container.flex.flex-row.justify-around(class="py-[90px]")
-    .sandbox.mx-5
+  .container.content.grid.grid-cols-300(
+    class="py-[70px] lg:flex lg:flex-row lg:justify-between"
+  )
+    .sandbox.mx-5.my-4
       .img
         img(src="./imgs/logo-light@2x.png", alt="", class="w-3/5")
       p.pt-3= "© 2021 Sandbox."
@@ -12,23 +14,27 @@
         li: a I
         li: a Y
     //- End SandBox
-    .getIn.mx-5
+    .getIn.mx-5.my-4
       h1.text-white.text-2xl.pb-2 Get in Touch
-      p.pb-2 Moonshine St. 14/05 Light City,<br> London, United Kingdom
+      p.py-4 Moonshine St. 14/05 Light City,<br> London, United Kingdom
       p info@email.com <br> 00 (123) 456 78 90
     //- End getIn
-    .learnMore.mx-5
+    .learnMore.mx-5.my-4
       h1.text-white.text-2xl.pb-2 Learn More
-      p About Us
-      p Our Story
-      p Projects
-      p Terms of Use
-      p Privacy Policy
+      a.my-2.block(href="#") About Us
+      a.my-2.block(href="#") Our Story
+      a.my-2.block(href="#") Projects
+      a.my-2.block(href="#") Terms of Use
+      a.my-2.block(href="#") Privacy Policy
     //- End leanMore
-    .newsLetter.mx-5
+    .newsLetter.mx-5.my-4
       h1.text-white.text-2xl.pb-2 Our Newsletter
-      p.pb-2 Subscribe to our newsletter to<br> get our news deals delivered to you.
-      form.footer-form
-        input(type="text", placeholder="Email Address")
-        button(type="submit") Join
+      p.pb-2.pt-4 Subscribe to our newsletter to<br> get our news deals delivered to you.
+      form.footer-form.relative.pt-4(class="w-[220px]")
+        input.outline-none(
+          type="text",
+          placeholder="Email Address",
+          class="rounded-[10px] h-[44px] p-[15px] w-[220px]"
+        )
+        button.blue-btn.top-4.absolute.right-0 Join
     //- End newsLetter

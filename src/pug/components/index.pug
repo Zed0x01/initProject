@@ -8,12 +8,15 @@ html(lang="en")
     title Sandbox
   body
     include header
-    .indexSec.h-screen
-      .container.mx-auto.text-center
+    .indexSec
+      .container.mx-auto.text-center.pb-40
         .home.text-center.mx-auto(class="pt-[180px] max-w-[600px]")
           h1.font-semibold.text-5xl(class="text-[#343f52] pb-[30px]") Staying on top of your bills never been this easy
           p.text-xl Easily achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.
         .btns.mt-5
           button.blue-btn Get Started
           button.green-btn Free Trial
+    include firstSec
     include footer
+    script(src="main.js")
+    include ../styles/scripts

@@ -3,14 +3,14 @@
   padding: 10px 25px;
   border-radius: 10px;
   font-weight: 600;
-  background-color: #{$btnGreen};
+  background-color: #{$greenBtn};
   color: white;
 }
 .blue-btn {
   padding: 10px 25px;
   border-radius: 10px;
   font-weight: 600;
-  background-color: #{$btnBlue};
+  background-color: #{$blueBtn};
   color: white;
 }
 .container {
@@ -20,7 +20,7 @@
   padding-right: 20px;
 }
 p {
-  color: #{$parCol};
+  color: #{$paraCol};
 }
 button:hover {
   transition: 0.4s ease-in-out;
