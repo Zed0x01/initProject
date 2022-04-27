@@ -3,9 +3,8 @@ var pug = require("gulp-pug");
 var concat = require("gulp-concat");
 var prefixer = require("gulp-autoprefixer");
 var sass = require("gulp-sass")(require("sass"));
-var cleanCss = require("gulp-clean-css");
 var uglify = require("gulp-uglify");
-const { parallel, watch } = require("gulp");
+const { parallel } = require("gulp");
 function html() {
   return gulp
     .src("./src/pug/components/index.pug")
