@@ -1,6 +1,15 @@
 let navbar = document.getElementById("headerContainer");
 let navbarSec = document.getElementById("headerSec");
 let elements = document.querySelectorAll("[data-parralex]");
+let smallbullet =document.querySelector('.x3');
+let basic = document.getElementById('basic');
+let prem = document.getElementById('prem');
+let corp = document.getElementById('corp');
+let basicText = document.getElementById('basicText');
+let premText = document.getElementById('premText');
+let corpText = document.getElementById('corpText');
+
+
 tailwind.config = {
   theme: {
     extend: {
@@ -43,6 +52,7 @@ tailwind.config = {
     },
   },
 };
+
 $(".custl").slick({
   dots: true,
   infinite: false,
@@ -52,6 +62,7 @@ $(".custl").slick({
   variableWidth: true,
   arrows: false,
 });
+
 window.onscroll = () => {
   const navbarOffset = navbar.offsetTop;
   if (window.pageYOffset >= navbarOffset + 145) {
@@ -64,6 +75,7 @@ window.onscroll = () => {
     navbar.style.backgroundColor = "#f1f5fd";
   }
 };
+
 function isInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
@@ -82,3 +94,26 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+smallbullet.onclick = ()=>{
+  if(smallbullet.classList.contains('month')){
+      smallbullet.classList.remove('month');
+      smallbullet.classList.add('year');
+      basic.innerText = '99';
+      prem.innerText = '199';
+      corp.innerText = '499';
+      basicText.innerText = '/Year';
+      premText.innerText = '/Year';
+      corpText.innerText = '/Year';
+  }
+  else if(smallbullet.classList.contains('year')){
+      smallbullet.classList.remove('year');
+      smallbullet.classList.add('month');
+      basic.innerText = '9';
+      prem.innerText = '19';
+      corp.innerText = '49';
+      basicText.innerText = '/Month';
+      premText.innerText = '/Month';
+      corpText.innerText = '/Month';
+  }
+}
