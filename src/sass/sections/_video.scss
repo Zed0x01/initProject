@@ -1,0 +1,33 @@
+.video-section {
+  .container {
+    .dots {
+      position: absolute;
+      top: 120px;
+      left: 0px;
+      opacity: 0.5;
+      background-image: radial-gradient(#212121 20%, rgb(229 231 235) 20%);
+      background-position: 0 0;
+      background-size: 15px 15px;
+      height: 150px;
+      width: 150px;
+    }
+    .lines {
+      position: absolute;
+      bottom: 120px;
+      opacity: 0.2;
+      background: repeating-linear-gradient(
+        75deg,
+        #212121 10px,
+        #ffffff 20px,
+        #212121 10px,
+        #ffffff 20px
+      );
+      background-color: #212121;
+      background-position: 0 0;
+      background-size: 20px 200px;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+}
