@@ -1,0 +1,10 @@
+.Plans {
+  .container {
+    input:checked ~ .dot {
+      transform: translateX(100%);
+    }
+    input:checked + .block {
+      background-color: #3b82f6;
+    }
+  }
+}
