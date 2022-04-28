@@ -1,48 +1,10 @@
 //- Tailwind Config File
-script(type="text/javascript").
-  tailwind.config = {
-    theme: {
-      extend: {
-        width: {
-          1200: "1170px",
-          992: "970px",
-          768: "750px",
-        },
-        gridTemplateColumns: {
-          350: "repeat(auto-fill,minmax(350px,1fr))",
-          300: "repeat(auto-fill,minmax(300px,1fr))",
-          250: "repeat(auto-fill,minmax(250px,1fr))",
-          400: "repeat(auto-fill,minmax(400px,1fr))",
-        },
-        animation: {
-          up: "up 2s ease-in-out forwards",
-          down: "up 2s ease-in-out forwards",
-          right: "right 2s ease-in-out forwards",
-          left: "left 2s ease-in-out forwards",
-          light: "light 2s ease-in-out forwards",
-        },
-
-        keyframes: {
-          up: {
-            to: { transform: "translateY(0)", opacity: "1" },
-          },
-          down: {
-            to: { transform: "translateY(0)", opacity: "1" },
-          },
-          left: {
-            to: { transform: "translateY(0)", opacity: "1" },
-          },
-          right: {
-            to: { transform: "translateY(0)", opacity: "1" },
-          },
-          light: {
-            to: { opacity: "1" },
-          },
-        },
-      },
-    },
-  };
-
-<script>
-
-</script>
+script(src="https://cdn.tailwindcss.com")
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+script(
+  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js",
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==",
+  crossorigin="anonymous",
+  referrerpolicy="no-referrer"
+)
+script(src="main.js")

@@ -1,6 +1,6 @@
 .video-section(class="bg-[#f1f5fd] lg:mt-[130px]")
   .container.text-center.relative(class="lg:top-[-180px]")
-    .video.relative(class="py-[50px] lg:w-[60%] lg:mx-auto")
+    .video(class="py-[50px] lg:w-[60%] lg:mx-auto")
       .vid.overflow-hidden(class="rounded-[14px]")
         video.mx-auto.opacity-0(
           controls,
@@ -10,7 +10,7 @@
         )
           source(src="imgs/awesome-video.mp4", type="video/mp4")
       .dots.hidden(class="lg:block")
-      .lines.hidden(class="lg:block")
+      .lines.hidden.right-0(class="lg:block")
       h1.font-bold.text-3xl.mx-auto.my-auto.z-10(class="text-[#343f52] lg:w-[600px]") Find out everything you need to know about creating a busniess process model
       .options.flex.flex-col.justify-center.items-center(
         class="lg:flex-row py-[20px] lg:pt-[60px]"
