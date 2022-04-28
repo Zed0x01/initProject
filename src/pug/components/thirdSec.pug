@@ -1,26 +1,51 @@
-div(class="thirdSec")
-    div(class="container")
-        div(class="content flex flex-col lg:flex-row relative  justify-between")
-            div(class="left relative flex justify-center lg:px-[40px]")
-                span(class="absolute z-[-1] rounded w-[120px] h-[120px] left-[30%] top-[20%] bg-[#fef3e4] lg:left-[40%]")
-                div(class="1 pr-4")
-                    img(src="imgs/sa13@2x.jpg",data-parralex="true",animates="animate-light",class="rounded shadow-xl w-[83%] lg:w-[95%] mt-8 opacity-0")
-                div(class="2")
-                    img(src="imgs/sa14@2x.jpg",data-parralex="true",animates="animate-light",class="rounded shadow-xl w-[83%] lg:w-[95%]  opacity-0")
-                    img(src="imgs/sa15@2x.jpg",data-parralex="true",animates="animate-light",class="rounded shadow-xl w-[83%] lg:w-[95%] mt-6 opacity-0")
-            div(class="right lg:px-[40px] ")
-                h1(class="text-3xl font-semibold mt-[60px] mb-[25px]") We have considered our solutions to support every stage of growth.
-                p(class="text-[#60697b] mt-4") Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem asperiores porro vitae. Vitae laboriosam beatae quas aspernatur praesentium commodi dignissimos, rerum aliquid eos. Accusantium sunt animi nam nobis iste!
-                div(class="inner-data flex flex-col lg:grid lg:grid-cols-2")
-                    div(class="text-data flex items-center mt-6")
-                        i(class="fa-solid fa-circle-check text-[20px] text-gray-200  bg-green-500 rounded-[50%] mr-2")
-                        p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
-                    div(class="text-data flex items-center mt-6")
-                        i(class="fa-solid fa-circle-check text-[20px] text-gray-200  bg-green-500 rounded-[50%] mr-2")
-                        p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
-                    div(class="text-data flex items-center mt-6")
-                        i(class="fa-solid fa-circle-check text-[20px] text-gray-200  bg-green-500 rounded-[50%] mr-2")
-                        p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
-                    div(class="text-data flex items-center my-6")
-                        i(class="fa-solid fa-circle-check text-[20px] text-gray-200  bg-green-500 rounded-[50%] mr-2")
-                        p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
+.thirdSec
+  .container
+    .content.flex.flex-col.relative.justify-between(class="lg:flex-row")
+      .left.relative.flex.justify-center(class="lg:px-[40px]")
+        span.absolute.rounded(
+          class="z-[-1] w-[120px] h-[120px] left-[30%] top-[20%] bg-[#fef3e4] lg:left-[40%]"
+        )
+        .pr-4(class="1")
+          img.rounded.shadow-xl.mt-8.opacity-0(
+            src="imgs/sa13@2x.jpg",
+            data-parralex="true",
+            animates="animate-light",
+            class="w-[83%] lg:w-[95%]"
+          )
+        div(class="2")
+          img.rounded.shadow-xl.opacity-0(
+            src="imgs/sa14@2x.jpg",
+            data-parralex="true",
+            animates="animate-light",
+            class="w-[83%] lg:w-[95%]"
+          )
+          img.rounded.shadow-xl.mt-6.opacity-0(
+            src="imgs/sa15@2x.jpg",
+            data-parralex="true",
+            animates="animate-light",
+            class="w-[83%] lg:w-[95%]"
+          )
+      .right(class="lg:px-[40px]")
+        h1.text-3xl.font-semibold(class="mt-[60px] mb-[25px]") We have considered our solutions to support every stage of growth.
+        p.mt-4(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem asperiores porro vitae. Vitae laboriosam beatae quas aspernatur praesentium commodi dignissimos, rerum aliquid eos. Accusantium sunt animi nam nobis iste!
+        .inner-data.flex.flex-col(class="lg:grid lg:grid-cols-2")
+          .text-data.flex.items-center.mt-6
+            i.fa-solid.fa-circle-check.text-gray-200.bg-green-500.mr-2(
+              class="text-[20px] rounded-[50%]"
+            )
+            p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
+          .text-data.flex.items-center.mt-6
+            i.fa-solid.fa-circle-check.text-gray-200.bg-green-500.mr-2(
+              class="text-[20px] rounded-[50%]"
+            )
+            p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
+          .text-data.flex.items-center.mt-6
+            i.fa-solid.fa-circle-check.text-gray-200.bg-green-500.mr-2(
+              class="text-[20px] rounded-[50%]"
+            )
+            p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
+          .text-data.flex.items-center.my-6
+            i.fa-solid.fa-circle-check.text-gray-200.bg-green-500.mr-2(
+              class="text-[20px] rounded-[50%]"
+            )
+            p(class="text-[#60697b]") Lorem ipsum dolor sit amet consectetur.
