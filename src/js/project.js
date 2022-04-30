@@ -66,10 +66,12 @@ window.onscroll = () => {
   const navbarOffset = navbar.offsetTop;
   if (window.pageYOffset >= navbarOffset + 145) {
     navbar.classList.add("fixed");
+    navbar.classList.add("shadow-xl");
     navbarSec.style.backgroundColor = "white";
     navbar.style.backgroundColor = "transparent";
   } else {
     navbar.classList.remove("fixed");
+    navbar.classList.remove("shadow-xl");
     navbarSec.style.backgroundColor = "#f1f5fd";
     navbar.style.backgroundColor = "#f1f5fd";
   }
@@ -85,6 +87,7 @@ function isInViewport(el) {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
+
 window.addEventListener("scroll", () => {
   elements.forEach((element) => {
     const anim = element.getAttribute("animates");
