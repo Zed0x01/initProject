@@ -1,5 +1,7 @@
 .video-section {
+  
   .container {
+
     .dots {
       position: absolute;
       top: 120px;
@@ -11,6 +13,7 @@
       height: 150px;
       width: 150px;
     }
+
     .lines {
       position: absolute;
       bottom: 120px;
@@ -29,5 +32,6 @@
       width: 150px;
       border-radius: 50%;
     }
+
   }
 }
