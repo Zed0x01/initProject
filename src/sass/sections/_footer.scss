@@ -1,7 +1,7 @@
 @import "../global/colors";
 
 .footer-main {
-  background-color: #{$footerCol};
+  background-color: $footerCol;
   p,
   a {
     color: #b5b3b0;
