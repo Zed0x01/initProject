@@ -24,11 +24,11 @@ tailwind.config = {
         400: "repeat(auto-fill,minmax(400px,1fr))",
       },
       animation: {
-        up: "up 2s ease-in-out forwards",
-        down: "up 2s ease-in-out forwards",
-        right: "right 2s ease-in-out forwards",
-        left: "left 2s ease-in-out forwards",
-        light: "light 2s ease-in-out forwards",
+        up: "up 0.6s ease-in-out forwards",
+        down: "up 0.6s ease-in-out forwards",
+        right: "right 0.6s ease-in-out forwards",
+        left: "left 0.6s ease-in-out forwards",
+        light: "light 0.6s ease-in-out forwards",
       },
 
       keyframes: {
