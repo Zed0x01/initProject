@@ -68,7 +68,7 @@ window.onscroll = () => {
     navbar.classList.add("fixed");
     navbar.classList.add("shadow-xl");
     navbarSec.style.backgroundColor = "white";
-    navbar.style.backgroundColor = "transparent";
+    navbar.style.backgroundColor = "white";
   } else {
     navbar.classList.remove("fixed");
     navbar.classList.remove("shadow-xl");
