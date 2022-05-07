@@ -1,0 +1,16 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        include styles/styles
+        title Error 404!
+    body 
+        include components/header
+        div(class="error h-[80vh] pt-10")
+            div(class='container')
+                div(class='content flex flex-col justify-center items-center')
+                    h1(class='text-[120px] text-red-700 font-bold')='404!'
+                    p(class='text-3xl') Sorry Sir This Page Can't Be Found
+        include components/footer
+        include styles/scripts

@@ -2,9 +2,10 @@
   "name": "final",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "build": "gulp",
+    "dev" : "node ./server/server",
     "format": "prettier -w -l \"**/*.{pug,scss,js}\""
   },
   "keywords": [],

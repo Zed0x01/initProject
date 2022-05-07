@@ -4,10 +4,10 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="description", content="Sandbox V1")
-    include ../styles/styles
+    include styles/styles
     title Sandbox
   body
-    include header
+    include components/header
     .indexSec
       .container.mx-auto.text-center.pb-40
         .home.text-center.mx-auto(class="pt-[180px] max-w-[600px]")
@@ -16,13 +16,13 @@ html(lang="en")
         .btns.mt-5
           button.blue-btn Get Started
           button.green-btn Free Trial
-    include firstSec
-    include secondSec
-    include customers
-    include videoSec
-    include partners
-    include plans
-    include desc
-    include last
-    include footer
-    include ../styles/scripts
+    include components/firstSec
+    include components/secondSec
+    include components/customers
+    include components/videoSec
+    include components/partners
+    include components/plans
+    include components/desc
+    include components/last
+    include components/footer
+    include styles/scripts

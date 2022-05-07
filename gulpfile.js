@@ -8,7 +8,7 @@ const { parallel } = require("gulp");
 
 function html() {
   return gulp
-    .src("./src/pug/components/index.pug")
+    .src("./src/pug/*.pug")
     .pipe(pug({ pretty: true }))
     .pipe(gulp.dest("./dist/"));
 }
